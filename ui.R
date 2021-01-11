@@ -220,7 +220,7 @@ ui <-
                 ),
                 br(),
                 menuItem("Source code", icon = icon("file-code-o"), 
-                         href = ""),
+                         href = "https://github.com/HwaiTengTeoh/Yelp-Shiny-Web-Application"),
                 br(),
                 menuItem("Data source", icon = icon("database"), 
                          href = "https://www.yelp.com/dataset")
