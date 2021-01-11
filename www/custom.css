@@ -1,0 +1,170 @@
+
+
+/**************************/
+/* Header title area font */
+/**************************/
+
+.main-header .logo {
+  font-family:"Helvetica Rounded Bold";
+  font-weight:bold;
+  letter-spacing:-1px; 
+  font-size:24px; 
+  color:#FFFFF;
+}
+
+
+/******************************************/
+/* Background color of header (logo part) */
+/******************************************/
+
+ .skin-red .main-header .logo {
+    background-color: #DD4B39; /* backgorund color of the logo header part */
+      color: #FFFFFF ; /* title text color */
+      height: 50px;
+    
+  }
+  
+
+/**********************************************************************/
+/* Change the background color of header (logo part) when mouse hover */
+/**********************************************************************/
+  .skin-red .main-header .logo:hover {
+    background-color: #002060; /* backgorund color of the logo header part on mouse hover */
+      color:#444444;
+  } 
+  
+  
+/**********************************************************/
+/* Change the background color of toggle when mouse hover */
+/**********************************************************/
+
+ .skin-red .main-header .navbar .sidebar-toggle:hover {
+    background-color: #002060;
+    color=black;
+}
+
+
+/************************************************************************/
+/* Change the background color of navigation dropdown when mouse hover  */
+/************************************************************************/
+
+ .skin-red .main-header .navbar .nav .open>a, .skin-red .main-header .navbar .nav .open>a:focus, .skin-red .main-header .navbar .nav .open>a:hover, .skin-red .main-header .navbar .nav>.active>a, .skin-red .main-header .navbar .nav>li>a:active, .skin-red .main-header .navbar .nav>li>a:focus, .skin-red .main-header .navbar .nav>li>a:hover {
+    background-color: #002060;
+    color=black;
+} 
+
+
+/***********************************************************/
+/* Change the background color of button when mouse hover  */
+/***********************************************************/
+
+.btn-danger:hover {
+    background-color: #A3A3A3;
+    border-color: #A3A3A3;
+    color: black;
+}
+
+
+
+
+ .modal-dialog{
+     max-width:1000px;
+     border-radius: 5px;
+     border: 2px solid white; 
+}
+ .modal-body{
+     max-height:700px;
+     align-content:center;
+     border: 2px solid white;
+     border-radius: 5px;
+}
+ .modal-sm {
+     max-width:1200px; 
+     align-content:center;
+     border-radius: 5px;
+     border: 2px solid white;
+}
+ .sidebar {
+     height:90vh;
+     overflow-y:auto 
+}
+ .skin-black .main-header > .logo {
+     background-color:#d1351b;
+     color:#ffffff;
+     border-bottom:0 solid transparent;
+     border-right:1px solid #d1351b;
+}
+ .skin-black .main-header > .logo:hover {
+     background-color:#d1351b 
+}
+ .nav-tabs-custom > .nav-tabs > li.active {
+     border-top-color:#616365 
+}
+ .nav-tabs-custom {
+     box-shadow:5px 5px 5px lightgrey 
+}
+ .skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
+     background-color:#727477;
+}
+ .skin-black .sidebar-menu > li.active > a, .skin-black .sidebar-menu > li:hover > a {
+     color:#fff;
+     background:#606164;
+     border-left-color:#d1351b;
+}
+ .skin-black .sidebar-menu > li > .treeview-menu {
+     margin:0 1px; 
+     background:#8a8c8f;
+     box-shadow:inset 0px 0px 7px #000000;
+     padding-bottom:2px 
+}
+ .skin-black .sidebar a {
+     color:#ffffff 
+}
+
+
+
+/**********************************************/
+/* Notification menu bar and dropdown message */
+/**********************************************/
+
+.navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu {
+    width: 400px;
+    padding: 0;
+    margin: 10px;
+    top: 100%;
+    background-color: #fefefee6;
+    box-shadow: 10px 10px 10px darkgrey;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li.header, .navbar-nav > .notifications-menu > .dropdown-menu > li.header, .navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #d1351b;
+    padding: 7px 10px;
+    border-bottom: 1px solid #d1351be6;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu, .navbar-nav > .notifications-menu > .dropdown-menu > li .menu, .navbar-nav > .tasks-menu > .dropdown-menu > li .menu {
+    max-height: 1200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a {
+    color: #000000;
+    overflow: hidden;
+    white-space: normal;
+}
+
+ #coxreg {
+     overflow-y: auto;
+     max-height: 200px;
+     background-color: lightgrey;
+     box-shadow: inset 0px -5px 5px darkgrey 
+}
