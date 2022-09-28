@@ -20,9 +20,14 @@ The data is obtained from Yelp.com and available to the public and is prepared f
 ### Data Pre-processing
 Huge raw data files of business and review data are both available in JSON file format. We have worked using Python to import one of the data files and review data due to its huge file size before we continue the manipulation of data in R. As the data is originally in JSON format, we have spent lots of effort cleaning and flattening the data columns. Some data columns require further cleanings, such as city names, food categories, and other attributes that contain inconsistent category strings The cleaning process requires extra effort to produce clean dataset before the development of the R shiny web application. 
 
+### Source Code
+The data manipulation script, user interface, server script of the web application, and miscellaneous working files can be found in this repository.
+
 ### Showcase of Web Application (RPresenter)
+More information is available in the well-documented R Presenters slide in RPubs: 
 https://rpubs.com/javinchew/713020
 
 ### RShiny Web Application
+Here's the link to access "Yelp Eat": 
 https://hwaiteng-teoh.shinyapps.io/Yelp-Eat-Travel-around-with-best-authentic-local-taste/
 
