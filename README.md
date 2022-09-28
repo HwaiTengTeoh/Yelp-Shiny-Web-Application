@@ -3,6 +3,9 @@
 ### Working Summary 
 Everyone loves to travel. People travel for different reasons, mainly for work, family, or leisure. It helps to broaden one's horizon while maintaining inner balance. Traveling to a new place brings unfamiliarity with the culture, food, or even traditions of the place, especially food, as food is one of the main concerns and part of the joy throughout the journey. Hence, we think of bringing up "Yelp Eat" as an interactive web application to connect people with recommended local eateries or even based on their preferred choices in Ontario with some analysis by just clicking on fingers without much effort for researching from other sources.
 
+### About "Yelp Eat"
+The web application is named "Yelp Eat" which takes data as a service and provides quick and simple analysis for finding the best food and location that meet users' requirements. The data product serves as a platform to connect users with restaurant information based on their preferences by selecting choices. "Yelp Eat" provides quick and simple analysis to users, which help to save time from crawling different blogs and website for the search of the restaurant.
+
 ### Data Sources
 The data is obtained from Yelp.com and available to the public and is prepared for Yelp Data Challenge event launched by Yelp, which consists of the businesses, reviews, and user data for academic and research purposes. For development of the web application, we are using only the business and reviews raw data.
 
