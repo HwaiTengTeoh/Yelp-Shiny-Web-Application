@@ -6,6 +6,14 @@ Everyone loves to travel. People travel for different reasons, mainly for work, 
 ### About "Yelp Eat"
 The web application is named "Yelp Eat" which takes data as a service and provides quick and simple analysis for finding the best food and location that meet users' requirements. The data product serves as a platform to connect users with restaurant information based on their preferences by selecting choices. "Yelp Eat" provides quick and simple analysis to users, which help to save time from crawling different blogs and website for the search of the restaurant.
 
+- To have quick results of place and location of restaurants by navigating the side tab for selection of users' choices
+- To have an overview of the restaurants information in Ontorio and different cities 
+- To check the most popular food categories and popular restaurants at specified location 
+- To visualize the trends of number of reviews received from past years 
+- To identify the location of restaurants nearby with address input and check the average reviewer's ratings from different time range 
+- To identify the top restaurants that matched the selected choices and special requirements such as dietary restrictions and type of meal for users. 
+- To visualize the most common reviews from the top restaurants that matched the selected choices in simple Wordcloud 
+
 ### Data Sources
 The data is obtained from Yelp.com and available to the public and is prepared for Yelp Data Challenge event launched by Yelp, which consists of the businesses, reviews, and user data for academic and research purposes. For development of the web application, we are using only the business and reviews raw data.
 
