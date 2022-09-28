@@ -15,7 +15,7 @@ The web application is named "Yelp Eat" which takes data as a service and provid
 - To visualize the most common reviews from the top restaurants that matched the selected choices in simple Wordcloud 
 
 ### Data Sources
-The data is obtained from Yelp.com and available to the public and is prepared for Yelp Data Challenge event launched by Yelp, which consists of the businesses, reviews, and user data for academic and research purposes. For development of the web application, we are using only the business and reviews raw data.
+The data is obtained from Yelp.com and available to the public and is prepared for Yelp Data Challenge event launched by Yelp, which consists of the businesses, reviews, and user data for academic and research purposes. For development of the web application, this work is using only the business and reviews raw data.
 
 ### Data Pre-processing
 Huge raw data files of business and review data are both available in JSON file format. We have worked using Python to import one of the data files and review data due to its huge file size before we continue the manipulation of data in R. As the data is originally in JSON format, we have spent lots of effort cleaning and flattening the data columns. Some data columns require further cleanings, such as city names, food categories, and other attributes that contain inconsistent category strings The cleaning process requires extra effort to produce clean dataset before the development of the R shiny web application. 
