@@ -29,11 +29,11 @@ The data manipulation script, user interface, server script of the web applicati
 
 
 ### Showcase of Web Application (RPresenter)
-More information is available in the well-documented R Presenters slide in RPubs: /n
+More information is available in the well-documented R Presenters slide in RPubs:\
 https://rpubs.com/javinchew/713020
 
 
 ### RShiny Web Application
-Here's the link to access "Yelp Eat": /n
+Here's the link to access "Yelp Eat":\
 https://hwaiteng-teoh.shinyapps.io/Yelp-Eat-Travel-around-with-best-authentic-local-taste/
 
