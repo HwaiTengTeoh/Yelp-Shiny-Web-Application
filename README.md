@@ -1,4 +1,4 @@
-# Yelp-Shiny-Web-Application
+# Yelp Eat: Travel around with the best authentic local taste
 ### R presentations
 https://rpubs.com/javinchew/713020
 
